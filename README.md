@@ -94,5 +94,36 @@ A classe RespostaContador possue dois métodos herdados de Resposta, o verifica 
   
 #### RespostaHora
 
+A classe RespostaHora possue 3 parametros, sendo eles:  
+  
+- int hora;
+- int minuto;
+- String entradaUser;  
+  
+E um construtor, que recebe um String.  
+
+##### Métodos  
+  
+A classe RespostaHora possue 2 métodos que herdam da classe Resposta, o verifica e o produz.  
+
+![Classe RespostaHora]()  
+  
+#### RespostaData  
+  
+A classe RespostaData possue 4 parametros, sendo eles:  
+  
+- String entradaUser;
+- int dia;
+- int mes;
+- int ano;
+  
+E possue um construtor que recebe uma string.  
+  
+##### Métodos  
+  
+A classe RespostaData possue 2 métodos que herdam da classe Resposta, o verifica e o produz.  
+  
+![Classe RespostaData]()
+
 
  
