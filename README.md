@@ -46,7 +46,7 @@ A classe ChatBot possui 2 métodos:
 - adciona -> recebe uma Resposta e a adiciona no arrayList  
 - processar -> recebe uma String e chama a funcao verifica da classe Respostas aleatórias, caso vericia retorne um true, retorna uma respota, se não, retorna uma string vazia  
 
-![Classe ChatBot]  
+![Classe ChatBot]()  
 
 #### RespostaAleatoria  
 
@@ -63,6 +63,10 @@ A classe RespostaAleatoria possue 2 métodos herdados da classe Resposta:
 - produz -> pega uma resposta aleatóriamente do ArrayList e retorna.  
 
 ![classe RespostaAleatoria]()  
-
+  
+#### RespostaSimples  
+  
+  
+  
 
 
