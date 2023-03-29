@@ -65,8 +65,34 @@ A classe RespostaAleatoria possue 2 métodos herdados da classe Resposta:
 ![classe RespostaAleatoria]()  
   
 #### RespostaSimples  
+
+A classe RespostaSimples possue 2 parametros, sendo eles:  
+- final String resposta;
+- final String entradaUser;  
+
+E possue um construtor que recebe duas String  
+
+##### Métodos  
+
+A classe RespostaSimples possue dois métodos herdados de Resposta, o verifica e o produz. 
+
+![Classe Resposta Simples]()  
   
+#### RespostaContador  
   
+a classe RespostaContador contador possue 2 parametros, sendo eles: 
+- String entradaUser;
+- int cont;  
   
+E possue um construtor que recebe uma string.  
+  
+##### Métodos  
+  
+A classe RespostaContador possue dois métodos herdados de Resposta, o verifica e o produz.  
+  
+![Classe RespostaContador]()  
+  
+#### RespostaHora
 
 
+ 
