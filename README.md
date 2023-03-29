@@ -26,4 +26,43 @@ Digitando **contar** o chat abre uma contagem e à incrementa toda vez que digit
 
 Por fim, você pode pedir para o chat-bot contar uma **piada** para você, ele possui algumas piadas no banco de dados e escolherá uma de forma aleatória  
 
-![Pedir piada CHATBOT](https://github.com/pauloszuparits/Imagens/blob/d9ba44d6c2f280e418382247fcd0b9140ed02426/imgChatBot/PiadaCHATBOT.png)
+![Pedir piada CHATBOT](https://github.com/pauloszuparits/Imagens/blob/d9ba44d6c2f280e418382247fcd0b9140ed02426/imgChatBot/PiadaCHATBOT.png)  
+
+## Documentação técnica  
+
+### Classes  
+
+#### ChatBot  
+
+A classe ChatBot tem 2 parametros, sendo eles:  
+- String[] stringCortada;
+- ArrayList<Resposta> respostasAleatorias;  
+
+E possui 1 construtor que inicia um ArrayList.  
+
+##### Métodos  
+
+A classe ChatBot possui 2 métodos:
+- adciona -> recebe uma Resposta e a adiciona no arrayList  
+- processar -> recebe uma String e chama a funcao verifica da classe Respostas aleatórias, caso vericia retorne um true, retorna uma respota, se não, retorna uma string vazia  
+
+![Classe ChatBot]  
+
+#### RespostaAleatoria  
+
+A classe respostaAleatoria herda da classe Resposta e possui 2 parametros, sendo eles:
+- String entradaUser;
+- ArrayList<String> respostasAleatorias;  
+
+E possui um construtor, que recebe uma String, e um ArrayList<String>  
+
+##### Métodos  
+
+A classe RespostaAleatoria possue 2 métodos herdados da classe Resposta:  
+- verifica -> recebe uma string e retorna um boolean  
+- produz -> pega uma resposta aleatóriamente do ArrayList e retorna.  
+
+![classe RespostaAleatoria]()  
+
+
+
