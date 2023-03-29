@@ -32,6 +32,12 @@ Por fim, você pode pedir para o chat-bot contar uma **piada** para você, ele p
 
 ### Classes  
 
+#### Resposta
+
+A classe Resposta é uma classe abstrata que possue 2 métodos, o verifica e o produz.
+
+![Classe Resposta](https://github.com/pauloszuparits/Imagens/blob/662347d59bf755cac0ad7fce751922589c969028/DocTecnicaChatBot/classeResposta.png)
+
 #### ChatBot  
 
 A classe ChatBot tem 2 parametros, sendo eles:  
@@ -46,7 +52,7 @@ A classe ChatBot possui 2 métodos:
 - adciona -> recebe uma Resposta e a adiciona no arrayList  
 - processar -> recebe uma String e chama a funcao verifica da classe Respostas aleatórias, caso vericia retorne um true, retorna uma respota, se não, retorna uma string vazia  
 
-![Classe ChatBot]()  
+![Classe ChatBot](https://github.com/pauloszuparits/Imagens/blob/4e2b4d8bd0de6843f00fd7eca1a38cee703a251a/DocTecnicaChatBot/classeChatBot.png)  
 
 #### RespostaAleatoria  
 
@@ -62,7 +68,7 @@ A classe RespostaAleatoria possue 2 métodos herdados da classe Resposta:
 - verifica -> recebe uma string e retorna um boolean  
 - produz -> pega uma resposta aleatóriamente do ArrayList e retorna.  
 
-![classe RespostaAleatoria]()  
+![classe RespostaAleatoria](https://github.com/pauloszuparits/Imagens/blob/4e2b4d8bd0de6843f00fd7eca1a38cee703a251a/DocTecnicaChatBot/classeRespostaAleatoria.png)  
   
 #### RespostaSimples  
 
@@ -76,7 +82,7 @@ E possue um construtor que recebe duas String
 
 A classe RespostaSimples possue dois métodos herdados de Resposta, o verifica e o produz. 
 
-![Classe Resposta Simples]()  
+![Classe Resposta Simples](https://github.com/pauloszuparits/Imagens/blob/4e2b4d8bd0de6843f00fd7eca1a38cee703a251a/DocTecnicaChatBot/classeRespostaSimples.png)  
   
 #### RespostaContador  
   
@@ -90,7 +96,7 @@ E possue um construtor que recebe uma string.
   
 A classe RespostaContador possue dois métodos herdados de Resposta, o verifica e o produz.  
   
-![Classe RespostaContador]()  
+![Classe RespostaContador](https://github.com/pauloszuparits/Imagens/blob/4e2b4d8bd0de6843f00fd7eca1a38cee703a251a/DocTecnicaChatBot/classeRepostaContador.png)  
   
 #### RespostaHora
 
@@ -106,7 +112,7 @@ E um construtor, que recebe um String.
   
 A classe RespostaHora possue 2 métodos que herdam da classe Resposta, o verifica e o produz.  
 
-![Classe RespostaHora]()  
+![Classe RespostaHora](https://github.com/pauloszuparits/Imagens/blob/4e2b4d8bd0de6843f00fd7eca1a38cee703a251a/DocTecnicaChatBot/classeRespostaHora.png)  
   
 #### RespostaData  
   
@@ -123,7 +129,9 @@ E possue um construtor que recebe uma string.
   
 A classe RespostaData possue 2 métodos que herdam da classe Resposta, o verifica e o produz.  
   
-![Classe RespostaData]()
+![Classe RespostaData](https://github.com/pauloszuparits/Imagens/blob/4e2b4d8bd0de6843f00fd7eca1a38cee703a251a/DocTecnicaChatBot/classeRespostaData.png)
+  
+
 
 
  
